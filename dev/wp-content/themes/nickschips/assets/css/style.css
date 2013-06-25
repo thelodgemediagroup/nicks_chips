@@ -1,0 +1,117 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+/* line 17, ../scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../scss/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 30, ../scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 33, ../scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 36, ../scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 44, ../scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../scss/_base.scss */
+body {
+  color: black;
+  font-size: 100%;
+}
+
+/* line 6, ../scss/_base.scss */
+.wrapper {
+  max-width: 1030px;
+  margin: 0 auto;
+}
+
+/* line 11, ../scss/_base.scss */
+header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  height: 200px;
+  width: 724px;
+}
+
+/* line 19, ../scss/_base.scss */
+nav {
+  clear: right;
+  color: white;
+  display: inline-block;
+  float: right;
+  max-width: 726px;
+}
+
+/* line 28, ../scss/_base.scss */
+nav > ul {
+  background: #231f20;
+  display: inline-block;
+  float: left;
+}
+
+/* line 35, ../scss/_base.scss */
+nav > ul > li {
+  float: left;
+  display: inline;
+}
+
+/* line 41, ../scss/_base.scss */
+nav > ul > li > a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.1em;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+}

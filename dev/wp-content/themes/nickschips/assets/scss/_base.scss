@@ -1,0 +1,48 @@
+body {
+	color: black;
+	font-size: 100%;
+}
+
+.wrapper {
+	max-width: 1030px;
+	margin: 0 auto;
+}
+
+header {
+	@include borderbox;
+	display: inline-block;
+	float: right;
+	height: 200px;
+	width: 724px;
+}
+
+nav {
+	clear: right;
+	color: white;
+	display: inline-block;
+	float: right;
+	
+	max-width: 726px;
+}
+
+nav > ul {
+	background: #231f20;
+	display: inline-block;
+	float: left;
+
+}
+
+nav > ul > li {
+	float: left;
+	display: inline;
+	
+}
+
+nav > ul > li > a {
+	@include borderbox;
+	color: white;
+	display: block;
+	font-size: 1.1em;
+	padding: 8px 15px 8px 15px;
+	text-decoration: none;
+}
