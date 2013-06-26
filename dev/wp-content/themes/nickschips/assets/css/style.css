@@ -157,36 +157,42 @@ nav > ul > li > a {
   box-sizing: border-box;
   float: left;
   height: inherit;
+  position: relative;
   width: 491px;
 }
-/* line 86, ../scss/_base.scss */
+/* line 87, ../scss/_base.scss */
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content p {
   padding: 1em 0.75em 0 1em;
   line-height: 1.3;
 }
-/* line 91, ../scss/_base.scss */
+/* line 92, ../scss/_base.scss */
 .page-content h1 {
   font-size: 1.2em;
+  padding-bottom: 1em;
 }
-/* line 95, ../scss/_base.scss */
+/* line 97, ../scss/_base.scss */
 .page-content h1, .page-content h2 {
   font-weight: bold;
 }
-/* line 99, ../scss/_base.scss */
+/* line 101, ../scss/_base.scss */
 .page-content p {
   font-size: 0.9em;
   font-weight: 200;
   letter-spacing: 1px;
 }
-/* line 105, ../scss/_base.scss */
+/* line 107, ../scss/_base.scss */
 .page-content img {
-  clear: both;
   display: block;
   margin: 0 auto;
-  padding: 1em;
 }
 
-/* line 113, ../scss/_base.scss */
+/* line 115, ../scss/_base.scss */
+.social-media img {
+  float: left;
+  margin-left: 5px;
+}
+
+/* line 125, ../scss/_base.scss */
 .right-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -198,12 +204,12 @@ nav > ul > li > a {
   width: 233px;
   /********** temp **********/
 }
-/* line 121, ../scss/_base.scss */
+/* line 133, ../scss/_base.scss */
 .right-sidebar h1, .right-sidebar h2, .right-sidebar h3, .right-sidebar h4, .right-sidebar h5, .right-sidebar h6, .right-sidebar p {
   padding: 1em 0.75em 0 0.75em;
   line-height: 1.15;
 }
-/* line 126, ../scss/_base.scss */
+/* line 138, ../scss/_base.scss */
 .right-sidebar h2 {
   font-family: serif;
   font-size: 1.2em;
@@ -211,20 +217,37 @@ nav > ul > li > a {
   font-weight: bold;
   /********/
 }
-/* line 134, ../scss/_base.scss */
+/* line 146, ../scss/_base.scss */
 .right-sidebar p {
   font-weight: 200;
   letter-spacing: -1px;
   padding-bottom: 1em;
 }
-/* line 140, ../scss/_base.scss */
+/* line 152, ../scss/_base.scss */
 .right-sidebar a {
   color: #fff;
   text-decoration: none;
 }
 
+/* line 158, ../scss/_base.scss */
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: inherit;
+}
+/* line 163, ../scss/_base.scss */
+footer .copyright {
+  display: inline-block;
+  float: right;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: right;
+  vertical-align: middle;
+}
+
 /********* Main Sidebar ***************/
-/* line 148, ../scss/_base.scss */
+/* line 176, ../scss/_base.scss */
 .main-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

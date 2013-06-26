@@ -81,6 +81,7 @@ nav > ul > li > a {
 	@include borderbox;
 	float: left;
 	height: inherit;
+	position: relative;
 	width: 491px;
 
 	h1, h2, h3, h4, h5, h6, p {
@@ -90,6 +91,7 @@ nav > ul > li > a {
 
 	h1 {
 		font-size: 1.2em;
+		padding-bottom: 1em;
 	}
 
 	h1, h2 {
@@ -103,11 +105,21 @@ nav > ul > li > a {
 	}
 
 	img {
-		clear: both;
 		display: block;
 		margin: 0 auto;
-		padding: 1em;
 	}
+
+}
+
+.social-media {
+	img{
+		float: left;
+		margin-left: 5px;
+	}
+}
+
+.copyright {
+
 }
 
 .right-sidebar {
@@ -140,6 +152,22 @@ nav > ul > li > a {
 	a {
 		color: #fff;
 		text-decoration: none;
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: inherit;
+
+	.copyright {
+		display: inline-block;
+		float: right;
+		font-size: 0.8em;
+		letter-spacing: 0;
+		line-height: normal;
+		text-align: right;
+		vertical-align: middle;
 	}
 }
 
