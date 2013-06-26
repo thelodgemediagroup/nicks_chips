@@ -134,7 +134,7 @@ nav > ul > li > a {
   font-style: italic;
   font-weight: bold;
   /********************/
-  padding: 5px 13px 5px 13px;
+  padding: 8px 13px 5px 13px;
   text-decoration: none;
 }
 
@@ -208,22 +208,23 @@ nav > ul > li > a {
   font-family: serif;
   font-size: 1.2em;
   font-style: italic;
+  font-weight: bold;
   /********/
 }
-/* line 133, ../scss/_base.scss */
+/* line 134, ../scss/_base.scss */
 .right-sidebar p {
   font-weight: 200;
   letter-spacing: -1px;
   padding-bottom: 1em;
 }
-/* line 139, ../scss/_base.scss */
+/* line 140, ../scss/_base.scss */
 .right-sidebar a {
   color: #fff;
   text-decoration: none;
 }
 
 /********* Main Sidebar ***************/
-/* line 147, ../scss/_base.scss */
+/* line 148, ../scss/_base.scss */
 .main-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
