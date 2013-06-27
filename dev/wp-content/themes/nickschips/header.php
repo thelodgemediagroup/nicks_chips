@@ -18,11 +18,11 @@
 
 			<nav>
 				<ul>
-					<li><a href="">About Nicks</a></li>
-					<li><a href="">Products</a></li>
-					<li><a href="">Order Online</a></li>
-					<li><a href="">News &amp; Info</a></li>
-					<li><a href="">Specials</a></li>
-					<li><a href="">Contact Nicks</a></li>
+					<li><a href="" class="nav-btn">About Nicks</a></li>
+					<li><a href="" class="nav-btn">Products</a></li>
+					<li><a href="" class="nav-btn">Order Online</a></li>
+					<li><a href="" class="nav-btn">News &amp; Info</a></li>
+					<li><a href="" class="nav-btn">Specials</a></li>
+					<li><a href="" class="nav-btn">Contact Nicks</a></li>
 				</ul>
 			</nav>

@@ -52,7 +52,7 @@ nav > ul > li {
 	display: inline;
 }
 
-nav > ul > li > a {
+.nav-btn {
 	@include borderbox;
 	color: white;
 	display: block;
@@ -98,7 +98,7 @@ nav > ul > li > a {
 		font-weight: bold;
 	}
 
-	p {
+	p, ul {
 		font-size: 0.9em;
 		font-weight: 200;
 		letter-spacing: 1px;
@@ -109,6 +109,18 @@ nav > ul > li > a {
 		margin: 0 auto;
 	}
 
+	ul {
+		list-style-type: disc;
+		padding: 1.3em 0 0.75em 2em;
+	}
+
+}
+
+h1.page-header {
+	color: #ed1f24;
+	font-family: serif;
+	font-size: 2em;
+	padding-bottom: 0.5em;
 }
 
 .social-media {
