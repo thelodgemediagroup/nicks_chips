@@ -17,6 +17,7 @@
 			</header>
 
 			<nav>
+				<?php wp_nav_menu('navigation', 'navigation'); ?>
 				<ul>
 					<li><a href="" class="nav-btn">About Nicks</a></li>
 					<li><a href="" class="nav-btn">Products</a></li>

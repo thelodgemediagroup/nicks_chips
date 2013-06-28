@@ -1,6 +1,7 @@
 <?php
 // load stylesheets
 add_action('wp_head', 'nc_load_stylesheets', 1);
+add_action('init', 'nc_load_menus');
 
 // load stylesheets
 function nc_load_stylesheets()
@@ -12,6 +13,11 @@ function nc_load_stylesheets()
 	// insert styles
 	wp_enqueue_style('css_reset');
 	wp_enqueue_style('main_stylesheet');
+}
+
+function nc_load_menus()
+{
+	register_nav_menu('navigation', __('Navigation'));
 }
 
 ?>
