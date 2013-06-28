@@ -17,13 +17,5 @@
 			</header>
 
 			<nav>
-				<?php wp_nav_menu('navigation', 'navigation'); ?>
-				<ul>
-					<li><a href="" class="nav-btn">About Nicks</a></li>
-					<li><a href="" class="nav-btn">Products</a></li>
-					<li><a href="" class="nav-btn">Order Online</a></li>
-					<li><a href="" class="nav-btn">News &amp; Info</a></li>
-					<li><a href="" class="nav-btn">Specials</a></li>
-					<li><a href="" class="nav-btn">Contact Nicks</a></li>
-				</ul>
+				<?php nc_navigation_menu(); ?>
 			</nav>

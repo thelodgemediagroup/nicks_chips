@@ -20,4 +20,20 @@ function nc_load_menus()
 	register_nav_menu('navigation', __('Navigation'));
 }
 
+function nc_navigation_menu()
+{
+	wp_nav_menu(array(
+    	'container' => false,                           // remove nav container
+    	'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+    	'menu' => __( 'Navigation', 'navigation' ),  // nav name
+    	'menu_class' => '',         // adding custom nav class
+    	'theme_location' => 'navigation',                 // where it's located in the theme
+    	'before' => '',                                 // before the menu
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
+    	'fallback_cb' => 'bones_main_nav_fallback'      // fallback function		
+		));
+}
 ?>
