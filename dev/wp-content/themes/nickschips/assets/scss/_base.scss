@@ -40,6 +40,7 @@ nav {
 	clear: right;
 	display: inline-block;
 	float: right;
+	height: 30px;
 	width: 724px;
 }
 
@@ -47,11 +48,12 @@ nav > ul {
 	background: inherit;
 	display: inline-block;
 	float: left;
+	height: 30px;
 	padding: 0px 20px 0px 20px;
 }
 
 #menu-navigation {
-	background: inherit;
+	
 	display: inline-block;
 	float: left;
 	padding: 0px 20px 0px 20px;	
@@ -60,19 +62,20 @@ nav > ul {
 		background: inherit;
 		float: left;
 		display: inline;
+		height: 30px;
 		position: relative;
 
 		a {
 			@include borderbox;
 			color: white;
 			display: block;
-			font-size: 1.1em;
+			font-size: 0.9em;
 			/********** temp **********/
 			font-family: serif;
 			font-style: italic;
 			font-weight: bold;
 			/********************/
-			padding: 8px 13px 5px 13px;
+			padding: 8px 10px 5px 10px;
 			text-decoration: none;				
 		}
 
@@ -86,6 +89,7 @@ nav > ul {
 		position: absolute;
 		display: none;
 		float: left;
+
 		overflow: hidden;
 		width: 200px;
 		z-index: 9999;
@@ -157,6 +161,12 @@ h1.page-header {
 	padding: 0.2em 0 0.1em 0.35em;
 }
 
+h1.page-subheader {
+	font-size: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 .social-media {
 	img{
 		float: left;
@@ -192,13 +202,14 @@ img.products-logo {
 /********** temp **********/
 	h2 {
 		font-family: serif;
-		font-size: 1.2em;
+		font-size: 0.95em;
 		font-style: italic;
 		font-weight: bold;
 /********/
 	}
 
 	p {
+		font-size: 0.95em;
 		font-weight: 200;
 		letter-spacing: -1px;
 		padding-bottom: 1em;
