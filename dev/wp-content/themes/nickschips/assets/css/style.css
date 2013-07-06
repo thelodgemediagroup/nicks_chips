@@ -88,8 +88,18 @@ body {
   margin: 0 auto;
 }
 
+/* line 25, ../scss/_base.scss */
+.floatright {
+  float: right;
+}
+
+/* line 29, ../scss/_base.scss */
+.floatleft {
+  float: left;
+}
+
 /********* Header ***************/
-/* line 27, ../scss/_base.scss */
+/* line 35, ../scss/_base.scss */
 header {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -103,7 +113,7 @@ header {
   padding: 0;
 }
 
-/* line 38, ../scss/_base.scss */
+/* line 46, ../scss/_base.scss */
 nav {
   background: #231f20;
   clear: right;
@@ -113,7 +123,7 @@ nav {
   width: 724px;
 }
 
-/* line 47, ../scss/_base.scss */
+/* line 55, ../scss/_base.scss */
 nav > ul {
   background: inherit;
   display: inline-block;
@@ -122,13 +132,13 @@ nav > ul {
   padding: 0px 20px 0px 20px;
 }
 
-/* line 55, ../scss/_base.scss */
+/* line 63, ../scss/_base.scss */
 #menu-navigation {
   display: inline-block;
   float: left;
   padding: 0px 20px 0px 20px;
 }
-/* line 61, ../scss/_base.scss */
+/* line 69, ../scss/_base.scss */
 #menu-navigation li {
   background: inherit;
   float: left;
@@ -136,7 +146,7 @@ nav > ul {
   height: 30px;
   position: relative;
 }
-/* line 68, ../scss/_base.scss */
+/* line 76, ../scss/_base.scss */
 #menu-navigation li a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -152,11 +162,11 @@ nav > ul {
   padding: 8px 10px 5px 10px;
   text-decoration: none;
 }
-/* line 82, ../scss/_base.scss */
+/* line 90, ../scss/_base.scss */
 #menu-navigation li a:hover {
   color: #c62321;
 }
-/* line 87, ../scss/_base.scss */
+/* line 95, ../scss/_base.scss */
 #menu-navigation ul {
   background: inherit;
   position: absolute;
@@ -166,17 +176,17 @@ nav > ul {
   width: 200px;
   z-index: 9999;
 }
-/* line 97, ../scss/_base.scss */
+/* line 105, ../scss/_base.scss */
 #menu-navigation ul li {
   clear: both;
 }
-/* line 106, ../scss/_base.scss */
+/* line 114, ../scss/_base.scss */
 #menu-navigation li:hover ul {
   display: inline-block;
 }
 
 /********* Container ***************/
-/* line 113, ../scss/_base.scss */
+/* line 121, ../scss/_base.scss */
 .container {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -187,7 +197,7 @@ nav > ul {
 }
 
 /********* Content ***************/
-/* line 122, ../scss/_base.scss */
+/* line 130, ../scss/_base.scss */
 .page-content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -197,34 +207,34 @@ nav > ul {
   position: relative;
   width: 491px;
 }
-/* line 129, ../scss/_base.scss */
+/* line 137, ../scss/_base.scss */
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6, .page-content p {
   padding: 1em 0.75em 0 1em;
   line-height: 1.3;
 }
-/* line 134, ../scss/_base.scss */
+/* line 142, ../scss/_base.scss */
 .page-content h1 {
   font-size: 1.2em;
   padding-bottom: 1em;
 }
-/* line 139, ../scss/_base.scss */
+/* line 147, ../scss/_base.scss */
 .page-content h1, .page-content h2 {
   font-weight: bold;
 }
-/* line 143, ../scss/_base.scss */
+/* line 151, ../scss/_base.scss */
 .page-content p, .page-content ul {
   font-size: 0.9em;
   font-weight: 200;
   letter-spacing: 1px;
 }
-/* line 149, ../scss/_base.scss */
+/* line 157, ../scss/_base.scss */
 .page-content ul {
   list-style-type: disc;
   line-height: 1.6;
   padding: 1.3em 0 0.75em 2em;
 }
 
-/* line 157, ../scss/_base.scss */
+/* line 165, ../scss/_base.scss */
 h1.page-header {
   color: #ed1f24;
   font-family: serif;
@@ -232,36 +242,36 @@ h1.page-header {
   padding: 0.2em 0 0.1em 0.35em;
 }
 
-/* line 164, ../scss/_base.scss */
+/* line 172, ../scss/_base.scss */
 h1.page-subheader {
   font-size: 1em;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 171, ../scss/_base.scss */
+/* line 179, ../scss/_base.scss */
 .social-media img {
   float: left;
   margin-left: 5px;
 }
 
-/* line 177, ../scss/_base.scss */
+/* line 185, ../scss/_base.scss */
 .product-img {
   margin-top: 1em;
 }
 
-/* line 181, ../scss/_base.scss */
+/* line 189, ../scss/_base.scss */
 img.products-logo {
   float: right;
   padding: 1.6em 1.6em 0.6em 0.6em;
 }
 
-/* line 186, ../scss/_base.scss */
+/* line 194, ../scss/_base.scss */
 .product-img > img {
   padding: 0.2em;
 }
 
-/* line 190, ../scss/_base.scss */
+/* line 198, ../scss/_base.scss */
 .right-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -273,12 +283,12 @@ img.products-logo {
   width: 233px;
   /********** temp **********/
 }
-/* line 198, ../scss/_base.scss */
+/* line 206, ../scss/_base.scss */
 .right-sidebar h1, .right-sidebar h2, .right-sidebar h3, .right-sidebar h4, .right-sidebar h5, .right-sidebar h6, .right-sidebar p {
   padding: 1em 0.75em 0 0.75em;
   line-height: 1.15;
 }
-/* line 203, ../scss/_base.scss */
+/* line 211, ../scss/_base.scss */
 .right-sidebar h2 {
   font-family: serif;
   font-size: 0.95em;
@@ -286,26 +296,26 @@ img.products-logo {
   font-weight: bold;
   /********/
 }
-/* line 211, ../scss/_base.scss */
+/* line 219, ../scss/_base.scss */
 .right-sidebar p {
   font-size: 0.95em;
   font-weight: 200;
   letter-spacing: -1px;
   padding-bottom: 1em;
 }
-/* line 218, ../scss/_base.scss */
+/* line 226, ../scss/_base.scss */
 .right-sidebar a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 224, ../scss/_base.scss */
+/* line 232, ../scss/_base.scss */
 footer {
   position: absolute;
   bottom: 0px;
   width: inherit;
 }
-/* line 229, ../scss/_base.scss */
+/* line 237, ../scss/_base.scss */
 footer .copyright {
   display: inline-block;
   float: right;
@@ -317,7 +327,7 @@ footer .copyright {
 }
 
 /********* Main Sidebar ***************/
-/* line 242, ../scss/_base.scss */
+/* line 250, ../scss/_base.scss */
 .main-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -327,4 +337,64 @@ footer .copyright {
   margin: 0;
   padding: 0;
   width: 300px;
+}
+
+/* line 262, ../scss/_base.scss */
+.instagram-container {
+  color: #77787a;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* line 266, ../scss/_base.scss */
+.instagram-container h1 {
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+/* line 270, ../scss/_base.scss */
+.instagram-container p {
+  font-size: 0.72em;
+}
+
+/* line 275, ../scss/_base.scss */
+.instagram-info {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f4f4f5;
+  border-top: 1px solid #bec1c0;
+  border-bottom: 1px solid #e0e0e0;
+  height: 20px;
+  margin: 10px 0 10px 0;
+  width: 300px;
+}
+/* line 284, ../scss/_base.scss */
+.instagram-info .instagram-text {
+  float: left;
+  padding: 1px 10px 0 10px;
+}
+/* line 288, ../scss/_base.scss */
+.instagram-info .instagram-text p {
+  float: inherit;
+  padding: 4px 0 0 0;
+}
+/* line 292, ../scss/_base.scss */
+.instagram-info .instagram-text img {
+  float: inherit;
+  padding: 2px 3px 0 0;
+}
+
+/* line 301, ../scss/_base.scss */
+.instagram {
+  width: 300px;
+  height: auto;
+}
+
+/* line 306, ../scss/_base.scss */
+.instagram-image {
+  border: 1px solid #ccc;
+  float: left;
+  height: 125px;
+  margin: 8px;
+  padding: 3px;
+  width: 125px;
 }

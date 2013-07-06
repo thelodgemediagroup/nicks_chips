@@ -22,6 +22,14 @@ body {
 	margin: 0 auto;
 }
 
+.floatright {
+	float: right;
+}
+
+.floatleft {
+	float: left;
+}
+
 /********* Header ***************/
 
 header {
@@ -249,4 +257,57 @@ footer {
 }
 
 .chips-graphic {
+}
+
+.instagram-container {
+	color: #77787a;
+	font-weight: bold;
+	margin-top: 10px;
+	h1 {
+		font-size: 0.85em;
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 0.72em;
+	}
+}
+
+.instagram-info {
+	@include borderbox;
+	background-color: #f4f4f5;
+	border-top: 1px solid #bec1c0;
+	border-bottom: 1px solid #e0e0e0;
+	height: 20px;
+	margin: 10px 0 10px 0;
+	width: 300px;
+
+	.instagram-text {
+		float: left;
+		padding: 1px 10px 0 10px;
+
+		p {
+			float: inherit;
+			padding: 4px 0 0 0;
+		}
+		img {
+			float: inherit;
+			padding: 2px 3px 0 0;
+		}
+	}
+}
+
+
+
+.instagram {
+	width: 300px;
+	height: auto;
+}
+
+.instagram-image {
+	border: 1px solid #ccc;
+	float: left;
+	height: 125px;
+	margin: 8px;
+	padding: 3px;
+	width: 125px;
 }
