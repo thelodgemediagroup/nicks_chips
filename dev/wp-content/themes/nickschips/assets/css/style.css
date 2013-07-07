@@ -233,8 +233,16 @@ nav > ul {
   line-height: 1.6;
   padding: 1.3em 0 0.75em 2em;
 }
+/* line 163, ../scss/_base.scss */
+.page-content a {
+  color: #c62123;
+}
+/* line 166, ../scss/_base.scss */
+.page-content a:hover {
+  color: #000000;
+}
 
-/* line 165, ../scss/_base.scss */
+/* line 172, ../scss/_base.scss */
 h1.page-header {
   color: #ed1f24;
   font-family: serif;
@@ -242,36 +250,36 @@ h1.page-header {
   padding: 0.2em 0 0.1em 0.35em;
 }
 
-/* line 172, ../scss/_base.scss */
+/* line 179, ../scss/_base.scss */
 h1.page-subheader {
   font-size: 1em;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 179, ../scss/_base.scss */
+/* line 186, ../scss/_base.scss */
 .social-media img {
   float: left;
   margin-left: 5px;
 }
 
-/* line 185, ../scss/_base.scss */
+/* line 192, ../scss/_base.scss */
 .product-img {
   margin-top: 1em;
 }
 
-/* line 189, ../scss/_base.scss */
+/* line 196, ../scss/_base.scss */
 img.products-logo {
   float: right;
   padding: 1.6em 1.6em 0.6em 0.6em;
 }
 
-/* line 194, ../scss/_base.scss */
+/* line 201, ../scss/_base.scss */
 .product-img > img {
   padding: 0.2em;
 }
 
-/* line 198, ../scss/_base.scss */
+/* line 205, ../scss/_base.scss */
 .right-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -283,12 +291,12 @@ img.products-logo {
   width: 233px;
   /********** temp **********/
 }
-/* line 206, ../scss/_base.scss */
+/* line 213, ../scss/_base.scss */
 .right-sidebar h1, .right-sidebar h2, .right-sidebar h3, .right-sidebar h4, .right-sidebar h5, .right-sidebar h6, .right-sidebar p {
   padding: 1em 0.75em 0 0.75em;
   line-height: 1.15;
 }
-/* line 211, ../scss/_base.scss */
+/* line 218, ../scss/_base.scss */
 .right-sidebar h2 {
   font-family: serif;
   font-size: 0.95em;
@@ -296,26 +304,30 @@ img.products-logo {
   font-weight: bold;
   /********/
 }
-/* line 219, ../scss/_base.scss */
+/* line 226, ../scss/_base.scss */
 .right-sidebar p {
   font-size: 0.95em;
   font-weight: 200;
   letter-spacing: -1px;
   padding-bottom: 1em;
 }
-/* line 226, ../scss/_base.scss */
+/* line 233, ../scss/_base.scss */
 .right-sidebar a {
   color: #fff;
   text-decoration: none;
 }
+/* line 237, ../scss/_base.scss */
+.right-sidebar a:hover {
+  color: #ccc;
+}
 
-/* line 232, ../scss/_base.scss */
+/* line 242, ../scss/_base.scss */
 footer {
   position: absolute;
   bottom: 0px;
   width: inherit;
 }
-/* line 237, ../scss/_base.scss */
+/* line 247, ../scss/_base.scss */
 footer .copyright {
   display: inline-block;
   float: right;
@@ -327,7 +339,7 @@ footer .copyright {
 }
 
 /********* Main Sidebar ***************/
-/* line 250, ../scss/_base.scss */
+/* line 260, ../scss/_base.scss */
 .main-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -339,23 +351,23 @@ footer .copyright {
   width: 300px;
 }
 
-/* line 262, ../scss/_base.scss */
+/* line 272, ../scss/_base.scss */
 .instagram-container {
   color: #77787a;
   font-weight: bold;
   margin-top: 10px;
 }
-/* line 266, ../scss/_base.scss */
+/* line 276, ../scss/_base.scss */
 .instagram-container h1 {
   font-size: 0.85em;
   text-transform: uppercase;
 }
-/* line 270, ../scss/_base.scss */
+/* line 280, ../scss/_base.scss */
 .instagram-container p {
   font-size: 0.72em;
 }
 
-/* line 275, ../scss/_base.scss */
+/* line 285, ../scss/_base.scss */
 .instagram-info {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -367,29 +379,29 @@ footer .copyright {
   margin: 10px 0 10px 0;
   width: 300px;
 }
-/* line 284, ../scss/_base.scss */
+/* line 294, ../scss/_base.scss */
 .instagram-info .instagram-text {
   float: left;
   padding: 1px 10px 0 10px;
 }
-/* line 288, ../scss/_base.scss */
+/* line 298, ../scss/_base.scss */
 .instagram-info .instagram-text p {
   float: inherit;
   padding: 4px 0 0 0;
 }
-/* line 292, ../scss/_base.scss */
+/* line 302, ../scss/_base.scss */
 .instagram-info .instagram-text img {
   float: inherit;
   padding: 2px 3px 0 0;
 }
 
-/* line 301, ../scss/_base.scss */
+/* line 311, ../scss/_base.scss */
 .instagram {
   width: 300px;
   height: auto;
 }
 
-/* line 306, ../scss/_base.scss */
+/* line 316, ../scss/_base.scss */
 .instagram-image {
   border: 1px solid #ccc;
   float: left;

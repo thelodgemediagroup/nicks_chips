@@ -1,4 +1,4 @@
-Cufon.replace('.coop');
+Cufon.replace('.coop', {hover: 'true'});
 Cufon.replace('.page-header');
 
 var instagramUsername = 'instagram-username';

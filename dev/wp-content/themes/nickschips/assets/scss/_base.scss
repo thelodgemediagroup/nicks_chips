@@ -160,6 +160,13 @@ nav > ul {
 		padding: 1.3em 0 0.75em 2em;
 	}
 
+	a {
+		color: #c62123;
+	}
+	a:hover {
+		color: #000000;
+	}
+
 }
 
 h1.page-header {
@@ -226,6 +233,9 @@ img.products-logo {
 	a {
 		color: #fff;
 		text-decoration: none;
+	}
+	a:hover {
+		color: #ccc;
 	}
 }
 
