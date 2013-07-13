@@ -12,10 +12,10 @@ function nc_load_scripts_stylesheets()
 
     // register scripts
     wp_register_script('cufon-yui', get_stylesheet_directory_uri().'/assets/js/cufon-yui.js');
-    wp_register_script('coop', get_stylesheet_directory_uri().'/assets/js/coop_900-coop_italic_900.font.js');
+    wp_register_script('coop', get_stylesheet_directory_uri().'/assets/js/coop_900-coop_italic_900.font.js', array('cufon-yui'));
     wp_register_script('goog-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js');
-    wp_register_script('instagram', 'http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js');
-    wp_register_script('scripts', get_stylesheet_directory_uri().'/assets/js/scripts.js');
+    wp_register_script('instagram', 'http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js', array('goog-jquery'));
+    wp_register_script('scripts', get_stylesheet_directory_uri().'/assets/js/scripts.js', array('cufon-yui', 'coop', 'goog-jquery', 'instagram'));
 
 	// insert styles
 	wp_enqueue_style('css_reset');

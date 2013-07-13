@@ -4,7 +4,7 @@ Cufon.replace('.page-header');
 var instagramUsername = 'instagram-username';
 var instagramCount = 'instagram-count';
 var instagramFollowers = 'instagram-followers';
-var userID = '178789396';
+var userID = '359695197';
 var accessToken = '452319737.1fb234f.eb5eb753e74f495fbd0f8d4dc1d1c4c0';
 var instagramURL = "https://api.instagram.com/v1/users/" + userID + "?access_token=" + accessToken;
 
