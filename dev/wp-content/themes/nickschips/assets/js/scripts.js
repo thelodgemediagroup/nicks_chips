@@ -1,5 +1,6 @@
 Cufon.replace('.coop', {hover: 'true'});
 Cufon.replace('.page-header');
+Cufon.replace('.newproduct-subheader');
 
 var instagramUsername = 'instagram-username';
 var instagramCount = 'instagram-count';
