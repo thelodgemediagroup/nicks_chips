@@ -246,8 +246,8 @@ nav > ul {
 }
 /* line 170, ../scss/_base.scss */
 .page-content p {
-  line-height: 1.3;
-  padding: 0em 1em 0.5em 1em;
+  line-height: 1.5;
+  padding: 0em 1em 0.5em 1.4em;
 }
 /* line 175, ../scss/_base.scss */
 .page-content h1 {
@@ -259,7 +259,7 @@ nav > ul {
 }
 /* line 183, ../scss/_base.scss */
 .page-content p, .page-content ul {
-  font-size: 0.9em;
+  font-size: 0.85em;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -267,7 +267,7 @@ nav > ul {
 .page-content ul {
   list-style-type: disc;
   line-height: 1.6;
-  padding: 1.3em 0 0.75em 2em;
+  padding: 1.3em 0 0.75em 2.5em;
 }
 /* line 195, ../scss/_base.scss */
 .page-content a {
@@ -284,7 +284,7 @@ h1.page-header {
   font-family: serif;
   font-size: 2em;
   line-height: 1em;
-  padding: 0.2em 0em 0em 0.35em;
+  padding: 0.2em 0em 0em 0.65em;
 }
 
 /* line 212, ../scss/_base.scss */
@@ -313,17 +313,24 @@ h1.newproduct-subheader {
 }
 
 /* line 235, ../scss/_base.scss */
+.product-caption {
+  display: inline-block;
+  height: 0.9em !important;
+  padding: 0 0.5em 0.7em 1.7em !important;
+}
+
+/* line 241, ../scss/_base.scss */
 img.products-logo {
   float: right;
   padding: 1.6em 1.6em 0.6em 0.6em;
 }
 
-/* line 240, ../scss/_base.scss */
+/* line 246, ../scss/_base.scss */
 .product-img > img {
   padding: 0.2em;
 }
 
-/* line 244, ../scss/_base.scss */
+/* line 250, ../scss/_base.scss */
 .right-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -335,12 +342,12 @@ img.products-logo {
   width: 233px;
   /********** temp **********/
 }
-/* line 252, ../scss/_base.scss */
+/* line 258, ../scss/_base.scss */
 .right-sidebar h1, .right-sidebar h2, .right-sidebar h3, .right-sidebar h4, .right-sidebar h5, .right-sidebar h6, .right-sidebar p {
   padding: 1em 0.75em 1em 0.75em;
   line-height: 1.15;
 }
-/* line 258, ../scss/_base.scss */
+/* line 264, ../scss/_base.scss */
 .right-sidebar h2 {
   font-family: serif;
   font-size: 0.95em;
@@ -348,30 +355,30 @@ img.products-logo {
   font-weight: bold;
   /********/
 }
-/* line 266, ../scss/_base.scss */
+/* line 272, ../scss/_base.scss */
 .right-sidebar p {
   font-size: 0.85em;
   font-weight: 200;
   letter-spacing: 0px;
   padding: 0.75em 0.75em 0.75em 0.75em;
 }
-/* line 273, ../scss/_base.scss */
+/* line 279, ../scss/_base.scss */
 .right-sidebar a {
   color: #fff;
   text-decoration: none;
 }
-/* line 277, ../scss/_base.scss */
+/* line 283, ../scss/_base.scss */
 .right-sidebar a:hover {
   color: #ccc;
 }
 
-/* line 282, ../scss/_base.scss */
+/* line 288, ../scss/_base.scss */
 footer {
   position: absolute;
   bottom: 0px;
   width: inherit;
 }
-/* line 287, ../scss/_base.scss */
+/* line 293, ../scss/_base.scss */
 footer .copyright {
   display: inline-block;
   float: right;
@@ -383,7 +390,7 @@ footer .copyright {
 }
 
 /********* Main Sidebar ***************/
-/* line 300, ../scss/_base.scss */
+/* line 306, ../scss/_base.scss */
 .main-sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -395,23 +402,23 @@ footer .copyright {
   width: 300px;
 }
 
-/* line 312, ../scss/_base.scss */
+/* line 318, ../scss/_base.scss */
 .instagram-container {
   color: #77787a;
   font-weight: bold;
   margin-top: 10px;
 }
-/* line 316, ../scss/_base.scss */
+/* line 322, ../scss/_base.scss */
 .instagram-container h1 {
   font-size: 0.85em;
   text-transform: uppercase;
 }
-/* line 320, ../scss/_base.scss */
+/* line 326, ../scss/_base.scss */
 .instagram-container p {
   font-size: 0.72em;
 }
 
-/* line 325, ../scss/_base.scss */
+/* line 331, ../scss/_base.scss */
 .instagram-info {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -423,29 +430,29 @@ footer .copyright {
   margin: 10px 0 10px 0;
   width: 300px;
 }
-/* line 334, ../scss/_base.scss */
+/* line 340, ../scss/_base.scss */
 .instagram-info .instagram-text {
   float: left;
   padding: 1px 10px 0 10px;
 }
-/* line 338, ../scss/_base.scss */
+/* line 344, ../scss/_base.scss */
 .instagram-info .instagram-text p {
   float: inherit;
   padding: 4px 0 0 0;
 }
-/* line 342, ../scss/_base.scss */
+/* line 348, ../scss/_base.scss */
 .instagram-info .instagram-text img {
   float: inherit;
   padding: 2px 3px 0 0;
 }
 
-/* line 351, ../scss/_base.scss */
+/* line 357, ../scss/_base.scss */
 .instagram {
   width: 300px;
   height: auto;
 }
 
-/* line 356, ../scss/_base.scss */
+/* line 362, ../scss/_base.scss */
 .instagram-image {
   border: 1px solid #ccc;
   float: left;
