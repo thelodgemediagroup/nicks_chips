@@ -352,8 +352,6 @@ footer {
 	}
 }
 
-
-
 .instagram {
 	width: 300px;
 	height: auto;
@@ -366,4 +364,53 @@ footer {
 	margin: 8px;
 	padding: 3px;
 	width: 125px;
+}
+
+/************ Contact Form ****************/
+
+.contact-page {
+	height: 500px;
+	overflow: hidden;
+}
+
+.wpcf7-submit {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-bottom-left-radius:3px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	height:28px;
+	line-height:28px;
+	margin-left: 235px;
+	width:93px;
+	text-decoration:none;
+	text-align:center;
+}
+.wpcf7-submit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}.wpcf7-submit:active {
+	position:relative;
+	top:1px;
 }
