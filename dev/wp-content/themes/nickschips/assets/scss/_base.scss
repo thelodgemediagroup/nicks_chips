@@ -414,3 +414,11 @@ footer {
 	position:relative;
 	top:1px;
 }
+
+.contest-rules {
+	height: 512px;
+	overflow: scroll;
+	b {
+		font-weight: 800;
+	}
+}

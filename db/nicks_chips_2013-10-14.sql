@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.25)
 # Database: nicks_chips
-# Generation Time: 2013-10-14 10:05:42 -0400
+# Generation Time: 2013-10-14 13:17:39 -0400
 # ************************************************************
 
 
@@ -372,7 +372,7 @@ VALUES
 	(38,43,'_edit_last','1'),
 	(39,43,'_edit_lock','1381756068:1'),
 	(40,47,'_edit_last','1'),
-	(41,47,'_edit_lock','1381759304:1'),
+	(41,47,'_edit_lock','1381759665:1'),
 	(42,49,'_menu_item_type','post_type'),
 	(43,49,'_menu_item_menu_item_parent','0'),
 	(44,49,'_menu_item_object_id','9'),
