@@ -2,10 +2,6 @@
 
 					<h2 class="coop">Nicks HOT News Flash!</h2>
 
-					<p><a href="/contest/">WIN EMINEM PRIZE PACK<br />If token is inside your bag</a></p>
-
-					<p><a href="/contest/">ENTER TO WIN $150<br />Instagram Contest</a></p>
-
 					<p><a href="/pork-rinds/">NEW! Hot&amp;Spicy, BBQ and Original Pork Rinds</a></p>
 
 					<p><a href="/tortilla-chips/">NEW! Family Size Tortilla Chips</a></p>
