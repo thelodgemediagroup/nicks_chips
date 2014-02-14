@@ -10,6 +10,6 @@
 
 					<p><a href="/tortilla-chips/">NEW Hot Habenero &amp; Nacho Cheeze Tortilla Chips</a></p>
 
-					<p><a href="/product-sell-sheet/">Download our 2013 Nicks Product Line Sell Sheet here</a></p>
+					<p><a href="/product-sell-sheet/">Download our 2014 Nicks Product Line Sell Sheet here</a></p>
 
 				</aside><!--/ .right-sidebar -->
